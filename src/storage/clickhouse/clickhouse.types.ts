@@ -77,6 +77,7 @@ export interface AvgChainRewardsStats {
 export interface NOsProposesStats {
   val_nos_id: string;
   all: number;
+  proposed: number;
   missed: number;
 }
 
